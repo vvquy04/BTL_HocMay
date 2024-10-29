@@ -13,7 +13,7 @@ def load_models():
     try:
         linear_model = joblib.load('model_linear.pkl')
         lasso_model = joblib.load('model_lasso.pkl')
-        mlp_model = joblib.load('model_MLP.pkl')
+        mlp_model = joblib.load('model_mlp.pkl')
         stacking_model = joblib.load('model_stack.pkl')
         scaler = joblib.load('scaler.pkl')
         logging.info("Các mô hình và scaler đã được tải thành công")
